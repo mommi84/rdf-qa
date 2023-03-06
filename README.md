@@ -51,10 +51,22 @@ python3 server.py
 
 The endpoint will be available at `localhost:5050` by default.
 
-### Parameters
+### Indexing
 
-* `id` internal ID (leave blank if not needed)
-* `query` url-encoded query
+Endpoint: `/index` (POST)
+
+Form data:
+* `file`: the RDF file to index
+
+This will return the internal ID of the index, to be used for querying.
+
+### Query
+
+Endpoint: `/query` (GET)
+
+Parameters:
+* `id`: internal ID of the index
+* `query`: url-encoded query
 
 E.g., http://localhost:5050/query?id=5aa30cf341cc0fd1494da302649b04&query=list%20all%20regions
 
