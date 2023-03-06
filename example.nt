@@ -1,0 +1,22 @@
+<urn:Milan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <urn:City> .
+<urn:City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <urn:Place> .
+<urn:Place> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <urn:Thing> .
+<urn:Lombardy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <urn:Region> .
+<urn:Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <urn:Place> .
+<urn:Milan> <urn:region> <urn:Lombardy> .
+<urn:Beppe_Sala> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <urn:Person> .
+<urn:Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <urn:Living_Being> .
+<urn:Milan> <urn:mayor> <urn:Beppe_Sala> . 
+<urn:Piedmont> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <urn:Region> .
+<urn:Milan> <http://www.w3.org/2000/01/rdf-schema#label> "Milan"@en .
+<urn:City> <http://www.w3.org/2000/01/rdf-schema#label>  "city"@en .
+<urn:Lombardy> <http://www.w3.org/2000/01/rdf-schema#label>  "Lombardy"@en .
+<urn:Place> <http://www.w3.org/2000/01/rdf-schema#label>  "place"@en .
+<urn:Region> <http://www.w3.org/2000/01/rdf-schema#label>  "region"@en .
+<urn:Beppe_Sala> <http://www.w3.org/2000/01/rdf-schema#label>  "Beppe Sala"@en .
+<urn:Person> <http://www.w3.org/2000/01/rdf-schema#label>  "person"@en .
+<urn:Piedmont> <http://www.w3.org/2000/01/rdf-schema#label>  "Piedmont"@en .
+<urn:Thing> <http://www.w3.org/2000/01/rdf-schema#label>  "thing"@en .
+<urn:Living_Being> <http://www.w3.org/2000/01/rdf-schema#label>  "living being"@en .
+<urn:region> <http://www.w3.org/2000/01/rdf-schema#label>  "has region"@en .
+<urn:mayor> <http://www.w3.org/2000/01/rdf-schema#label>  "has mayor"@en .
